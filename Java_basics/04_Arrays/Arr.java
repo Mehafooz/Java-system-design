@@ -12,6 +12,13 @@ public  class Arr{
         int arr[]={1,2,3,4,5};
         int arrLen = arr.length;
 
+        String str3 ="hello";
+        str3 = str3+"world";
+
+        str3 = "changes";
+        
+        System.out.println("String is "+ str3);
+
         Arr ArObj[]= new Arr[3];
 
         ArObj[0]=new Arr(1,"meh");
